@@ -15,6 +15,10 @@ function operaciones(op)
         restar: function restarNumeros(n1, n2) {
             return (parseInt(n1) - parseInt(n2));
         },
+		
+		multiplicar: function multiplicarNumeros(n1,n2){
+			return (parseInt(n1) * parseInt(n2));
+		}
 
     };
 
@@ -49,10 +53,10 @@ function operaciones(op)
                 var resultado = ops.multiplicar(num1, num2);
                 alert(resultado);
                 break;
-            case 'dividir':
+            /*case 'dividir':
                 var resultado = ops.dividir(num1, num2);
                 alert(resultado);
-                break;
+                break;*/
 
         }
     }
